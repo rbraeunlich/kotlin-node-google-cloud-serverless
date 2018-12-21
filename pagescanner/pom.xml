@@ -43,7 +43,8 @@
                         </goals>
                         <configuration>
                             <sourceMap>true</sourceMap> <!-- source map is useful for debugging in tools that support source maps -->
-                            <outputFile>${project.build.outputDirectory}/${project.artifactId}.js</outputFile>
+                            <outputFile>${project.build.outputDirectory}/index.js</outputFile>
+                            <moduleKind>commonjs</moduleKind>
                         </configuration>
                     </execution>
                 </executions>

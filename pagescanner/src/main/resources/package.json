@@ -1,0 +1,8 @@
+{
+  "name": "pagescanner",
+  "description": "Kotlin Cloud function pagescanner",
+  "dependencies": {
+    "kotlin": "1.3.11"
+  },
+  "private": true
+}
